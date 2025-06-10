@@ -1,0 +1,19 @@
+langchain
+langchain-community
+python-dotenv
+pinecone
+pinecone-text
+pinecone-notebooks
+langchain_huggingface
+pypdf
+tiktoken
+groq
+langchain-groq
+openai
+fastapi 
+uvicorn
+
+
+#curl -X POST "http://localhost:8000/query" \ -H "Content-Type: application/json" \ -d '{"query": "What is RAG?", "model": "llama3-70b-8192", "temperature": 0.1}' 
+
+
