@@ -18,7 +18,16 @@ A hybrid retrieval-augmented generation (RAG) system that leverages both **dense
 | **docker** | Deploying in Huggingface Spaces |
 | **dotenv** | Managing environment variables securely |
 
+---
 
+## ⚙️ Internal Pipeline
+
+1. Query is embedded using `HuggingFaceEmbeddings`
+2. BM25 sparse encoding via `BM25Encoder`
+3. Hybrid search with `PineconeHybridSearchRetriever`
+4. Top-k documents used as context for LLaMA via Groq API
+5. Response is generated and returned as JSON
+---
 
 ## 📡 API Endpoints – Hybrid Search RAG for UHI Mitigation
 
@@ -64,16 +73,6 @@ Query the system for UHI mitigation strategies using hybrid retrieval (dense + s
 |-----------|------------------------------------------|
 | `400`     | Invalid request body                     |
 | `500`     | Internal server error or API key failure |
-
----
-
-## ⚙️ Internal Pipeline
-
-1. Query is embedded using `HuggingFaceEmbeddings`
-2. BM25 sparse encoding via `BM25Encoder`
-3. Hybrid search with `PineconeHybridSearchRetriever`
-4. Top-k documents used as context for LLaMA via Groq API
-5. Response is generated and returned as JSON
 
 ---
 ## 🚀 Live Demo
