@@ -82,3 +82,8 @@ You can try out the **Hybrid Search RAG for UHI Mitigation** project live on **H
 curl -X POST "https://Prithivi-nanda-UHI-mitigation.hf.space/query" -H "Content-Type: application/json" \
 -d '{"query": "What is UHI mitigation strategies?", "model": "llama3-70b-8192", "temperature": 0.1}'
 ```
+
+---
+## Appendix
+
+[Postman](https://github.com/Prithiviraj25/Hybrid_search/blob/main/Screenshot%202025-06-11%20at%2012.48.09%E2%80%AFPM.png)
