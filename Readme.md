@@ -84,6 +84,12 @@ curl -X POST "https://Prithivi-nanda-UHI-mitigation.hf.space/query" -H "Content-
 ```
 
 ---
-## Appendix
+## 📎 Appendix
 
-[Postman](https://github.com/Prithiviraj25/Hybrid_search/blob/main/Screenshot%202025-06-11%20at%2012.48.09%E2%80%AFPM.png)
+### 🔹 Postman API Test
+
+![Postman Screenshot](https://github.com/Prithiviraj25/Hybrid_search/blob/main/Screenshot%202025-06-11%20at%2012.48.09%E2%80%AFPM.png)
+
+### 🔹 Flow Chart
+
+![Flow Chart](https://github.com/Prithiviraj25/Hybrid_search/blob/main/Screenshot%202025-06-11%20at%2012.52.08%E2%80%AFPM.png)
